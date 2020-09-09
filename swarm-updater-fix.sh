@@ -71,7 +71,7 @@ if [ "$selector" = "y" ] || [ "$selector" = "Y" ]; then
     unset selector
 else
     echo -e $TEXT_RED_B "SWARM - Update fixer canceled!"
-    echo -e $TEXT_RED_B && pause ' Press [Enter] key to continue...'
+    echo -e $TEXT_RED_B && pause ' Press [Enter] key to continue...' && echo -e $text_reset
 fi
 clear
 exit 0
